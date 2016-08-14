@@ -8,4 +8,4 @@ The initial data represent data collected from the accelerometers from the Samsu
 Here are the initial data for the project:
 <https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip>
 
-The steps to make the final data set can be found in the **run_analysis.r**. The final data set can be found in the **tidy_data.txt** file. A code book that describes the variables, the data, and any transformations or work done to clean them can be found in **CodeBook.md**
+The steps to make the final data set can be found in the **run_analysis.r**. The final data set can be found in the **tidy_data.txt** file. A code book that describes the variables, the data, and any transformations or work done to clean them can be found in **codeBook.md**
