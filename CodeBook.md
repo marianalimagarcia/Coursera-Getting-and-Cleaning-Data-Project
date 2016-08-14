@@ -11,7 +11,7 @@ Here are the initial data for the project:
 <https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip>
 
 
-##Transformations or work done to clean the data (**run_analysis.r**)
+##Transformations or work done to clean the data: **run_analysis.r**
 
 The R script does the following:
 
@@ -28,7 +28,10 @@ The R script does the following:
 The final data set can be found in the **tidy_data.txt** file
 
 
-##Variables in the **tidy_data.txt**.
+##Variables in the **tidy_data.txt**
+
+###Subject and Activity
+These variables identify the unique subject/activity pair the variables relate to:
 
 + **subject**: denotes the subject number that performed an activity. In total there are 30 subjects.
 
@@ -46,7 +49,8 @@ The final data set can be found in the **tidy_data.txt** file
 
 6. LAYING
 
-A total of 79 features were selected from the original data: only the estimated mean and standard deviations, using a grep on "mean|std". These features form the 79 other variables in the dataset, making a total of 81 columns. The feature names from the original data have been rewritten, using the following rules:
+###Measurement Means
+A total of 79 features were selected from the original data: only the estimated mean and standard deviations. These features form the 79 other variables in the dataset, making a total of 81 columns.
 
 The prefix t was rewritten into time, to make it clear the feature corresponds to the time domain
 The prefix f was rewritten into freq, to make it clear the feature corresponds to the frequency domain
