@@ -11,7 +11,7 @@ Here are the initial data for the project:
 
 ##Transformations or work done to clean the data
 
-The transformations can be found in the **run_analysis.r** file. The R script that does the following:
+The R script that does the following (run_analysis.r):
 
 1. Merges the training and the test sets to create one data set.
 
